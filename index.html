@@ -1,12 +1,27 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8" />
+  <title>Show email</title>
 </head>
+
 <body>
+  <h1>Show email</h1>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+  <label>Given name: </label><br />
+  <input type="text" id="txtGivenName" /><br />
 
+  <label>Surname: </label><br />
+  <input type="text" id="txtSurname" />
+
+  <p>
+    <button onclick="showEmail();">Show email</button>
+  </p>
+  
+  <p id="pOutput"></p>
+
+  <script src="05_variables_warmup_1.js"></script>
 </body>
-</html> 
+
+</html>
